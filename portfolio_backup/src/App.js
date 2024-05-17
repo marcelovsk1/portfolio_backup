@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from "./Components/Navbar/Navbar"
 import './App.css';
-// import Intro from "./Components/Intro/Intro"
+import Intro from "./Components/Intro/Intro"
 // import About from "./Components/About/About"
 // import Experience from "./Components//Experience/Experience";
 // import Projects from "./Components/Projects/Projects";
@@ -21,7 +21,7 @@ function App() {
         <meta property="og:type" content="website" />
       </Helmet>
       <Navbar/>
-      {/* <Intro /> */}
+      <Intro />
       {/* <About /> */}
       {/* <Experience /> */}
       {/* <Projects /> */}
