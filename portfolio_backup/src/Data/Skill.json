@@ -20,6 +20,10 @@
     "imageSrc": "Skills/csharp.png"
   },
   {
+    "title": "OpenAi",
+    "imageSrc": "Skills/openai.png"
+  },
+  {
     "title": "Rails",
     "imageSrc": "Skills/rails.svg"
   },
@@ -30,9 +34,5 @@
   {
     "title": "Git",
     "imageSrc": "Skills/git_icon.png"
-  },
-  {
-    "title": "Unity",
-    "imageSrc": "Skills/unity.svg"
   }
 ]

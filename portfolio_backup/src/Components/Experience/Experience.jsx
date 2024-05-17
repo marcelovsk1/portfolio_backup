@@ -12,6 +12,7 @@ import ruby from "../../Assets/Skills/ruby.png";
 import gitImage from "../../Assets/Skills/git_icon.png";
 import unityImage from "../../Assets/Skills/unity_logo.png";
 import trenditImage from "../../Assets/Skills/trendit_img.png";
+import openai from "../../Assets/Skills/openai.png"
 
 const getImage = (imageSrc) => {
   switch (imageSrc) {
@@ -25,14 +26,16 @@ const getImage = (imageSrc) => {
       return pythonImage;
     case "Skills/csharp.png":
       return CImage;
+      case "Skills/openai.png":
+        return openai;
     case "Skills/rails.svg":
       return railsImage;
     case "Skills/ruby.png":
       return ruby
     case "Skills/git_icon.png":
       return gitImage;
-    case "Skills/unity.svg":
-      return unityImage;
+    // case "Skills/unity.svg":
+    //   return unityImage;
     case "Skills/trendit_img.png":
       return trenditImage;
     default:
